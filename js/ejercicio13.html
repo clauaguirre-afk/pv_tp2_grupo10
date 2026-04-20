@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+</head>
+<body>
+    <script>
+        let numeros = [], cant, num;
+        cant = parseInt(prompt('Ingrese la cantidad de numeros que ingresara: '));
+        for(let i = 1; i <= cant; i++){
+            num = parseInt(prompt(`Ingrese un numero en orden ${i}: `));
+            numeros.push(num);
+        }
+        //funcion flecha
+        const func = (nros) => {
+            for(let i = 0; i < nros.length; i++){
+                document.write(nros[i]);
+                document.write('<br>');
+            }
+        }
+        //invocar la funcion flecha
+        func(numeros);
+    </script>
+</body>
+</html>
