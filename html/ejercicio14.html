@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio14</title>
+</head>
+<body>
+    <script>
+        let numeros = [];
+        let cantidad;
+        let num;
+
+        cantidad = parseInt(prompt("¿Cuántos números vas a duplicar?"));
+        for(let i = 1; i<=cantidad; i++){
+            num = parseInt(prompt(`Ingrese el número en posición ${i}: `));
+            numeros.push(num);
+        }
+
+        const duplicar = (nums) =>{
+            for (let i = 0; i<nums.length; i++){
+                document.write(`El doble de ${nums[i]} es: ${nums[i]*2}`);
+                document.write('<br>');
+            }
+        }
+        duplicar(numeros);
+    </script>
+    
+</body>
+</html>
