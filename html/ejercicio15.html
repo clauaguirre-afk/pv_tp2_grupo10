@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio15</title>
+</head>
+<body>
+    <script>
+        const numero = parseInt(prompt(`Ingrese un numero: `));
+        
+        const retornarMes = (numero) =>{
+            switch(numero){
+                case 1 :
+                    document.write(`ENERO`);
+                    break;
+                case 2 :
+                    document.write(`FEBRERO`);
+                    break;
+                case 3 :
+                    document.write(`MARZO`);
+                    break;
+                case 4 :
+                    document.write(`ABRIL`);
+                    break;
+                case 5 :
+                    document.write(`MAYO`);
+                    break;
+                case 6 :
+                    document.write(`JUNIO`);
+                    break;
+                case 7 :
+                    document.write(`JULIO`);
+                    break;
+                case 8 :
+                    document.write(`AGOSTO`);
+                    break;
+                case 9 :
+                    document.write(`SEPTIEMBRE`);
+                    break;
+                case 10 :
+                    document.write(`OCTUBRE`);
+                    break;
+                case 11 :
+                    document.write(`NOVIEMBRE`);
+                    break;
+                case 12 :
+                    document.write(`DICIEMBRE`);
+                    break;
+                default:
+                    document.write(`No corresponde a ningun mes del año.`);
+            }
+        }
+        retornarMes(numero);
+    </script>
+</body>
+</html>
