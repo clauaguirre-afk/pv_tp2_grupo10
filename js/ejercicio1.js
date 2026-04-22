@@ -1,2 +1,2 @@
-const integrantes = 'Yesica Micaela Soria, Florencia Maria Lujan Cordoba, Alberto Omar Condori, Claudio Emanuel Aguirre Gomez';
-console.log(`Somos ${integrantes} y estamos aprendiendo javacript.`);
+const integrantes_del_grupo = 'Yesica Micaela Soria, Florencia Maria Lujan Cordoba, Alberto Omar Condori, Claudio Emanuel Aguirre Gomez';
+console.log(`Somos ${integrantes_del_grupo} y estamos aprendiendo javacript.`);
