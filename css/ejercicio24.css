@@ -1,23 +1,23 @@
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: #f4f4f4;
-  padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
 }
 
 .container {
-  background: rgb(124, 139, 206);
-  padding: 15px;
-  border-radius: 10px;
-  width: 300px;
+    background: rgb(124, 139, 206);
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
 }
 
 label {
-  display: block;
-  margin: 10px 0;
+    display: block;
+    margin: 10px 0;
 }
 
 #seleccion {
-  margin-top: 15px;
-  font-weight: bold;
-  color: #00121f;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #00121f;
 }
